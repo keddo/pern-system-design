@@ -23,23 +23,25 @@ Each lesson has its own folder with notes, code, and exercises. I commit as I le
 
 ## 🧰 Tech Stack
 
-| Layer | Technology | Role |
-|---|---|---|
-| **P**ostgreSQL | Relational database | Stores data reliably with transactions and strong consistency |
-| **E**xpress | Node.js web framework | Builds the REST API |
-| **R**eact | UI library | Builds the frontend |
-| **N**ode.js | JavaScript runtime | Runs the server |
-| Extras (later) | Redis, Docker, Nginx, BullMQ, GitHub Actions | Caching, containers, load balancing, background jobs, CI/CD |
+| Layer          | Technology                                   | Role                                                          |
+| -------------- | -------------------------------------------- | ------------------------------------------------------------- |
+| **P**ostgreSQL | Relational database                          | Stores data reliably with transactions and strong consistency |
+| **E**xpress    | Node.js web framework                        | Builds the REST API                                           |
+| **R**eact      | UI library                                   | Builds the frontend                                           |
+| **N**ode.js    | JavaScript runtime                           | Runs the server                                               |
+| Extras (later) | Redis, Docker, Nginx, BullMQ, GitHub Actions | Caching, containers, load balancing, background jobs, CI/CD   |
 
 ## 🗺️ Learning Roadmap
 
 ### Phase 1: Foundations
+
 - [ ] 01: What "large system" means + PERN overview + environment setup
 - [ ] 02: Node.js & Express fundamentals (routing, middleware, errors)
 - [ ] 03: PostgreSQL fundamentals (SQL, relations, constraints)
 - [ ] 04: React fundamentals (components, state, data fetching)
 
 ### Phase 2: Building a Real App
+
 - [ ] 05: Project architecture & folder structure (layered design)
 - [ ] 06: REST API design (resources, status codes, versioning, pagination)
 - [ ] 07: Database design & migrations (normalization, indexes)
@@ -48,6 +50,7 @@ Each lesson has its own folder with notes, code, and exercises. I commit as I le
 - [ ] 10: Testing (unit, integration, end-to-end)
 
 ### Phase 3: Scaling Up
+
 - [ ] 11: Performance: query optimization, indexing, connection pooling
 - [ ] 12: Caching with Redis
 - [ ] 13: Background jobs & message queues
@@ -56,12 +59,14 @@ Each lesson has its own folder with notes, code, and exercises. I commit as I le
 - [ ] 16: Rate limiting, security hardening (OWASP Top 10)
 
 ### Phase 4: Production
+
 - [ ] 17: Docker & Docker Compose
 - [ ] 18: CI/CD with GitHub Actions
 - [ ] 19: Monitoring, metrics & observability
 - [ ] 20: Monolith vs microservices: when and how to split
 
 ### 🚀 Capstone Project
+
 A full-featured, scalable application built across all lessons and deployed to production.
 
 ## 📁 Repository Structure
@@ -84,7 +89,7 @@ pern-system-design/
 
 ```bash
 # Clone the repo
-git clone https://github.com/<your-username>/pern-system-design.git
+git clone https://github.com/keddo/pern-system-design.git
 cd pern-system-design
 
 # Backend
@@ -106,14 +111,14 @@ npm run dev
 - [Express Docs](https://expressjs.com)
 - [PostgreSQL Docs](https://www.postgresql.org/docs/)
 - [React Docs](https://react.dev)
-- *Designing Data-Intensive Applications* by Martin Kleppmann
+- _Designing Data-Intensive Applications_ by Martin Kleppmann
 - [System Design Primer](https://github.com/donnemartin/system-design-primer)
 
 ## 📝 Progress Log
 
-| Date | Lesson | What I Learned |
-|---|---|---|
-| 2026-10-14 | 01 | Started the journey: PERN overview & setup |
+| Date       | Lesson | What I Learned                             |
+| ---------- | ------ | ------------------------------------------ |
+| 2026-10-14 | 01     | Started the journey: PERN overview & setup |
 
 ---
 
